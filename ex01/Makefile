@@ -1,8 +1,8 @@
 INCLUDES = Zombie.hpp
 
-SRC = main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRC = main.cpp Zombie.cpp zombieHorde.cpp
 
-NAME = BraiiiiiiinnnzzzZ
+NAME = Moar_brainz!
 
 OBJ = $(SRC:.cpp=.o)
 

@@ -1,8 +1,8 @@
-INCLUDES = Zombie.hpp
+INCLUDES = Weapon.hpp HumanA.hpp HumanB.hpp
 
-SRC = main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRC =  main.cpp, Weapon.cpp, HumanA.cpp, HumanB.cpp
 
-NAME = BraiiiiiiinnnzzzZ
+NAME = Unnecessary_violence
 
 OBJ = $(SRC:.cpp=.o)
 

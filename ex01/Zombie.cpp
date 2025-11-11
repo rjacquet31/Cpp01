@@ -6,24 +6,26 @@
 /*   By: rjacquet <rjacquet@student.42perpignan.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/09 22:34:33 by rjacquet          #+#    #+#             */
-/*   Updated: 2025/11/11 17:27:32 by rjacquet         ###   ########.fr       */
+/*   Updated: 2025/11/11 17:40:27 by rjacquet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-Zombie::Zombie(std::string name)
+Zombie::Zombie()
 {
-	this->_name = name;
-	std::cout << "Zombie: " << _name << " created" << std::endl;
+}
+
+Zombie::Zombie(std::string _N)
+{
+	this->name = _N;
 }
 
 Zombie::~Zombie()
 {
-	std::cout << "Zombie: " << _name << " destroyed" << std::endl;
 }
 
-void Zombie::announce(void)
+void Zombie::announce()
 {
-	std::cout << _name << ": BraiiiiiiinnnzzzZ..." << std::endl;
+	std::cout << name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }

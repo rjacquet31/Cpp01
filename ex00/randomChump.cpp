@@ -1,29 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Zombie.cpp                                         :+:      :+:    :+:   */
+/*   randomChump.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rjacquet <rjacquet@student.42perpignan.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/09 22:34:33 by rjacquet          #+#    #+#             */
-/*   Updated: 2025/11/11 17:27:32 by rjacquet         ###   ########.fr       */
+/*   Created: 2025/11/11 17:21:23 by rjacquet          #+#    #+#             */
+/*   Updated: 2025/11/11 17:21:28 by rjacquet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-Zombie::Zombie(std::string name)
+void randomChump(std::string name)
 {
-	this->_name = name;
-	std::cout << "Zombie: " << _name << " created" << std::endl;
-}
-
-Zombie::~Zombie()
-{
-	std::cout << "Zombie: " << _name << " destroyed" << std::endl;
-}
-
-void Zombie::announce(void)
-{
-	std::cout << _name << ": BraiiiiiiinnnzzzZ..." << std::endl;
+	Zombie randomChump(name);
+	randomChump.announce();
 }
