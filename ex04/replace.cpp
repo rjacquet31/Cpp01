@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   replace.cpp                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rjacquet <rjacquet@student.42perpignan.    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/11/28 14:43:29 by rjacquet          #+#    #+#             */
+/*   Updated: 2025/11/28 14:43:30 by rjacquet         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "replace.hpp"
 
 bool replace_in_file(const std::string& filename, const std::string& s1, const std::string& s2)
